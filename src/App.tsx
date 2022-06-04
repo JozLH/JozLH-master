@@ -4,11 +4,8 @@ import { useState } from "react";
 import MusicPlayerCard from "./components/MusicPlayerCard";
 import { fetchSongList } from "./Api";
 import { musicData } from "./data/data";
-import { Button, ButtonGroup } from "@mui/material";
+import { Button } from "@mui/material";
 import "./App.css";
-import { StyledEngineProvider } from "@mui/material/styles";
-
-const Total_Songs = musicData.length;
 
 // these are typeScript types, which means data structures.
 // Here I am saying: the "question" will be of the type "string",
@@ -31,6 +28,8 @@ const App = () => {
 	const [score, setScore] = useState(0);
 	const [gameOver, setGameOver] = useState(true);
 
+	const Total_Songs = musicData.length;
+
 	const startTrivia = async () => {
 		setLoading(true);
 		setGameOver(false);
@@ -43,11 +42,13 @@ const App = () => {
 		setLoading(false);
 	};
 
-	const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
-		const answer = e.currentTarget.value;
-		if (!gameOver) {
-			const correct = question[number].correct_answer === answer;
+	const checkAnswer = (e: any) => {
+		const answer = e.target.innerText;
 
+		if (!gameOver) {
+			const correct =
+				question[number].correct_answer.toLowerCase() == answer.toLowerCase();
+			console.log(correct);
 			if (correct) setScore((prevSate) => prevSate + 1);
 			const answerObject = {
 				question: question[number].question,

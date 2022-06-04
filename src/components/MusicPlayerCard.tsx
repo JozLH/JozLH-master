@@ -36,15 +36,27 @@ const MusicPlayerCard: React.FC<Props> = (props: Props) => {
 			</Button>
 			<p dangerouslySetInnerHTML={{ __html: props.question }}></p>
 			{props.answers?.map((answer) => (
-				<ButtonWrapper
+				// <ButtonWrapper
+				// 	key={answer}
+				// 	correct={props.userAnswer?.correctAnswer === answer}
+				// 	userClicked={props.userAnswer?.answer === answer}
+				// >
+				<Button
+					variant="contained"
 					key={answer}
-					correct={props.userAnswer?.correctAnswer === answer}
-					userClicked={props.userAnswer?.answer === answer}
+					style={{ display: "block", margin: "1rem auto" }}
+					fullWidth
+					onClick={props.callback}
+					color={
+						props.userAnswer?.answer
+							? props.userAnswer?.correctAnswer === answer
+								? "success"
+								: "error"
+							: "primary"
+					}
 				>
-					<button disabled={props.userAnswer} onClick={props.callback}>
-						<span dangerouslySetInnerHTML={{ __html: answer }} />
-					</button>
-				</ButtonWrapper>
+					{answer}
+				</Button>
 			))}
 		</div>
 	);
