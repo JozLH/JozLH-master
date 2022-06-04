@@ -47,6 +47,7 @@ const MusicPlayerCard: React.FC<Props> = (props: Props) => {
 					style={{ display: "block", margin: "1rem auto" }}
 					fullWidth
 					onClick={props.callback}
+					// to make the colors change, there's the color
 					color={
 						props.userAnswer?.answer
 							? props.userAnswer?.correctAnswer === answer
