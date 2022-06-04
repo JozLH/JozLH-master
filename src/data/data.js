@@ -1,7 +1,6 @@
 export const musicData = [
 	{
 		category: "Movie soundtracks",
-		type: "multiple",
 		difficulty: "easy",
 		question: `<iframe style="border-radius:12px; filter:blur(4px); color:red" src="https://open.spotify.com/embed/track/67rctxgNOXUYhKiS3cv0MT?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "The Lion Sleeps Tonight",
@@ -9,7 +8,6 @@ export const musicData = [
 	},
 	{
 		category: "Movie soundtracks",
-		type: "multiple",
 		difficulty: "easy",
 		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/1jFhnVoJkcB4lf9tT0rSZS?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "Unchained Melody",
@@ -17,7 +15,6 @@ export const musicData = [
 	},
 	{
 		category: "Movie soundtracks",
-		type: "multiple",
 		difficulty: "easy",
 		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/0evRiwtEJ0w8EGbYXdKn1u?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "E.T. (Extra-Terrestrial)",
@@ -29,7 +26,6 @@ export const musicData = [
 	},
 	{
 		category: "Movie soundtracks",
-		type: "multiple",
 		difficulty: "easy",
 		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/1n8NKQRg8LVHy7oUhUgbFF?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "Hedwig's Themes",
@@ -41,7 +37,6 @@ export const musicData = [
 	},
 	{
 		category: "Movie soundtracks",
-		type: "multiple",
 		difficulty: "easy",
 		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/5CyZPkmTBmq61SunRDysna?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" opacity="0.5" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "We Go Together",

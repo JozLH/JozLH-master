@@ -7,7 +7,6 @@ export type Question = {
 	difficulty: string;
 	incorrect_answers: string[];
 	question: string;
-	type: string;
 };
 
 export const fetchSongList = async () => {
