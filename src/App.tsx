@@ -129,7 +129,7 @@ const App = () => {
 							color: "white",
 						}}
 					>
-						Choose genre…
+						Choose a genre…
 					</InputLabel>
 					<Select
 						labelId="demo-simple-select-label"
