@@ -94,7 +94,7 @@ export const musicData = [
 		difficulty: "easy",
 		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/2R6UrJ8uWbSIiHWmvRQvN8?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "Whiskey in the Jar",
-		incorrect_answers: ["Master of puppets", "Sad bad true", "Fuel"],
+		incorrect_answers: ["Master of puppets", "Sad but true", "Fuel"],
 	},
 	{
 		category: "Famous rock songs",
