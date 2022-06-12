@@ -5,8 +5,10 @@
 }
 
 body {
-	background-color: rgb(18, 18, 18);
-	color: white;
+	background-image: url("https://www.texturex.com/wp-content/uploads/2018/03/light-bokeh-texture-pretty-color-free-stock-photo-blur.jpg");
+	display: block;
+	object-fit: contain;
+	color: rgb(246, 246, 246);
 }
 
 /* 

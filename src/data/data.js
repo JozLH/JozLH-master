@@ -2,33 +2,29 @@ export const musicData = [
 	{
 		category: "Movie soundtracks",
 		difficulty: "easy",
-		question: `<iframe style="border-radius:12px; filter:blur(4px); color:red" src="https://open.spotify.com/embed/track/67rctxgNOXUYhKiS3cv0MT?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/67rctxgNOXUYhKiS3cv0MT?utm_source=generator&theme=4" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "The Lion Sleeps Tonight",
 		incorrect_answers: ["Awimaweh", "Pumba's song", "Hakuna Matata"],
 	},
 	{
 		category: "Movie soundtracks",
 		difficulty: "easy",
-		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/1jFhnVoJkcB4lf9tT0rSZS?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/1jFhnVoJkcB4lf9tT0rSZS?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "Unchained Melody",
 		incorrect_answers: ["Ghost", "Pottery class", "Love you from heaven"],
 	},
 	{
 		category: "Movie soundtracks",
 		difficulty: "easy",
-		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/0evRiwtEJ0w8EGbYXdKn1u?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
-		correct_answer: "E.T. (Extra-Terrestrial)",
-		incorrect_answers: [
-			"Falling in love on the beach",
-			"Cine Gold",
-			"Summer song",
-		],
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/0evRiwtEJ0w8EGbYXdKn1u?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "E.T.",
+		incorrect_answers: ["Matilda", "Anakin's Theme", "Summer song"],
 	},
 	{
 		category: "Movie soundtracks",
 		difficulty: "easy",
-		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/1n8NKQRg8LVHy7oUhUgbFF?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
-		correct_answer: "Hedwig's Themes",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/1n8NKQRg8LVHy7oUhUgbFF?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Hedwig's Theme",
 		incorrect_answers: [
 			"Train to Hogwarts",
 			"Wingardium Leviosa",
@@ -38,7 +34,7 @@ export const musicData = [
 	{
 		category: "Movie soundtracks",
 		difficulty: "easy",
-		question: `<iframe style="border-radius:12px; filter:blur(4px);" src="https://open.spotify.com/embed/track/5CyZPkmTBmq61SunRDysna?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" opacity="0.5" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/5CyZPkmTBmq61SunRDysna?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" opacity="0.5" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
 		correct_answer: "We Go Together",
 		incorrect_answers: [
 			"Rock N'Roll Is Here to Stay",
@@ -46,4 +42,96 @@ export const musicData = [
 			"You're The One That I Want",
 		],
 	},
+	{
+		category: "90s Pop",
+		difficulty: "medium",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/6WCeFNVAXUtNczb7lqLiZU?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Crocodile Rock",
+		incorrect_answers: [
+			"Knock your Socks out",
+			"Goodbye Yellow Brick Road",
+			"Bennie & the Jets",
+		],
+	},
+	{
+		category: "90s Pop",
+		difficulty: "medium",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/7L93Qjqgh05ZuFflWWyTjN?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Cose della vita",
+		incorrect_answers: [
+			"Amore della mia vita",
+			"Sto pensando a noi",
+			"Sto pensando a te",
+		],
+	},
+	{
+		category: "90s Pop",
+		difficulty: "medium",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/51H2y6YrNNXcy3dfc3qSbA?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "When Doves Cry",
+		incorrect_answers: ["Just like my mother", "Purple rain", "Kiss"],
+	},
+	{
+		category: "90s Pop",
+		difficulty: "medium",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/6hmtNel4OKlBpBcTO7ao3o?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Natural Blues",
+		incorrect_answers: ["Porcelain", "Hotel", "Lift me up"],
+	},
+	{
+		category: "90s Pop",
+		difficulty: "easy",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/4WoKuMjwJXuy9IqX6AH5JE?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "People are People",
+		incorrect_answers: [
+			"Personal Jesus",
+			"Summer Nights",
+			"You're The One That I Want",
+		],
+	},
+	{
+		category: "Famous rock songs",
+		difficulty: "easy",
+		question: `<iframe style="border-radius:12px; filter:blur(6px);" src="https://open.spotify.com/embed/track/2R6UrJ8uWbSIiHWmvRQvN8?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Whiskey in the Jar",
+		incorrect_answers: ["Master of puppets", "Sad bad true", "Fuel"],
+	},
+	{
+		category: "Famous rock songs",
+		difficulty: "easy",
+		question: `<iframe style="border-radius:12px; filter:blur(6px)" src="https://open.spotify.com/embed/track/4ukiv6Rp5N4tQZSBT9JRLo?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Rock is Dead",
+		incorrect_answers: [
+			"Dope Show",
+			"Beautiful People",
+			"I don't Like the Drugs but the Drugs Like Me",
+		],
+	},
+	{
+		category: "Famous rock songs",
+		difficulty: "easy",
+		question: `<iframe style="border-radius:12px; filter:blur(6px)" src="https://open.spotify.com/embed/track/57bgtoPSgt236HzfBOd8kj?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Thunderstruck",
+		incorrect_answers: [
+			"Back in Black",
+			"Highway to Hell",
+			"You Shook me All Night",
+		],
+	},
+	{
+		category: "Famous rock songs",
+		difficulty: "easy",
+		question: `<iframe style="border-radius:12px; filter:blur(6px)" src="https://open.spotify.com/embed/track/6Vjk8MNXpQpi0F4BefdTyq?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Kashmir",
+		incorrect_answers: ["Houses of Holy", "The Rover", "Immigrant Song"],
+	},
+	{
+		category: "Famous rock songs",
+		difficulty: "easy",
+		question: `<iframe style="border-radius:12px; filter:blur(6px)" src="https://open.spotify.com/embed/track/3gxEZXUjrNbl3TlSrTGbR5?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`,
+		correct_answer: "Modern Love",
+		incorrect_answers: ["Starman", "Let's Dance", "Space Oddity"],
+	},
 ];
+
+export const genres = ["90s Pop", "Movie soundtracks", "Famous rock songs"];

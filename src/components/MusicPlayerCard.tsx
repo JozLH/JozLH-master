@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Wrapper, ButtonWrapper } from "./MusicCardStyles";
+import React from "react";
+import { ButtonWrapper } from "./MusicCardStyles";
 import Button from "@mui/material/Button";
 
 type Props = {
@@ -20,15 +20,6 @@ type Props = {
 // });
 
 const MusicPlayerCard: React.FC<Props> = (props: Props) => {
-	// useEffect(() => {
-	// 	// Update the document title using the browser API
-	// 	//		document.querySelectorAll("span");
-	// 	const hideSpan = document.getElementById("frame");
-
-	// 	console.log(hideSpan);
-	// 	//	hideSpan[1].style.display = "none";
-	// });
-
 	return (
 		<div>
 			<Button className="number">
@@ -36,28 +27,30 @@ const MusicPlayerCard: React.FC<Props> = (props: Props) => {
 			</Button>
 			<p dangerouslySetInnerHTML={{ __html: props.question }}></p>
 			{props.answers?.map((answer) => (
-				// <ButtonWrapper
-				// 	key={answer}
-				// 	correct={props.userAnswer?.correctAnswer === answer}
-				// 	userClicked={props.userAnswer?.answer === answer}
-				// >
-				<Button
-					variant="contained"
+				<ButtonWrapper
 					key={answer}
-					style={{ display: "block", margin: "1rem auto" }}
-					fullWidth
-					onClick={props.callback}
-					// to make the colors change, there's the color
-					color={
-						props.userAnswer?.answer
-							? props.userAnswer?.correctAnswer === answer
-								? "success"
-								: "error"
-							: "primary"
-					}
+					correct={props.userAnswer?.correctAnswer === answer}
+					userClicked={props.userAnswer?.answer === answer}
 				>
-					{answer}
-				</Button>
+					<Button
+						variant="contained"
+						key={answer}
+						style={{ display: "block", margin: "1rem auto" }}
+						fullWidth
+						onClick={props.callback}
+						// to make the colors change, the boolean types declared are used as follows:
+						// if correct, then green (success), otherwise red (error), default = "primary".
+						color={
+							props.userAnswer?.answer
+								? props.userAnswer?.correctAnswer === answer
+									? "success"
+									: "error"
+								: "primary"
+						}
+					>
+						{answer}
+					</Button>
+				</ButtonWrapper>
 			))}
 		</div>
 	);
