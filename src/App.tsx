@@ -1,8 +1,7 @@
-import { queries } from "@testing-library/react";
 import React, { useState, useEffect } from "react";
 import MusicPlayerCard from "./components/MusicPlayerCard";
 import { fetchSongList } from "./Api";
-import { musicData, genres } from "./data/data";
+import { genres } from "./data/data";
 import { Button } from "@mui/material";
 import "./App.css";
 import InputLabel from "@mui/material/InputLabel";
@@ -62,9 +61,8 @@ const App = () => {
 
 		if (!gameOver) {
 			const correct =
-				question[number].correct_answer.toLowerCase() == answer.toLowerCase();
-			console.log(correct);
-			if (correct) setScore(score + 1);
+				question[number].correct_answer.toLowerCase() === answer.toLowerCase();
+			if (correct) setScore((prevSate) => prevSate + 1);
 			const answerObject = {
 				question: question[number].question,
 				answer,
@@ -111,7 +109,7 @@ const App = () => {
 			{!gameOn ? (
 				<h1>This is… Spotiguess!</h1>
 			) : (
-				<h1>You are Spotiguessing!</h1>
+				<h2>You are Spotiguessing!</h2>
 			)}
 
 			{/* These are the buttons, with style variables (defines as types in ) */}
@@ -131,7 +129,7 @@ const App = () => {
 							color: "white",
 						}}
 					>
-						Choose a music genre…
+						Choose genre…
 					</InputLabel>
 					<Select
 						labelId="demo-simple-select-label"
